@@ -1,0 +1,9 @@
+type: amqp
+
+status:
+  class: receiver
+  stability:
+    alpha: [logs,metrics,traces]
+  distributions: [core, contrib, k8s]
+  codeowners:
+    active: [syron]
